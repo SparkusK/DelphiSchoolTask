@@ -1,0 +1,16 @@
+object Form5: TForm5
+  Left = 215
+  Top = 259
+  Width = 1142
+  Height = 656
+  Caption = 'Events'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+end

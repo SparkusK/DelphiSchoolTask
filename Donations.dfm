@@ -1,0 +1,88 @@
+object Form4: TForm4
+  Left = 517
+  Top = 287
+  Width = 425
+  Height = 240
+  Caption = 'Donations'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 112
+    Top = 16
+    Width = 28
+    Height = 13
+    Caption = 'Name'
+  end
+  object Label2: TLabel
+    Left = 96
+    Top = 48
+    Width = 42
+    Height = 13
+    Caption = 'Surname'
+  end
+  object Label3: TLabel
+    Left = 72
+    Top = 80
+    Width = 69
+    Height = 13
+    Caption = 'Home Address'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 112
+    Width = 133
+    Height = 13
+    Caption = 'Amount of Money to Donate'
+  end
+  object Edit1: TEdit
+    Left = 160
+    Top = 16
+    Width = 209
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 160
+    Top = 80
+    Width = 209
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 160
+    Top = 112
+    Width = 209
+    Height = 21
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 160
+    Width = 265
+    Height = 25
+    Caption = 'Make Donation'
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 160
+    Top = 48
+    Width = 209
+    Height = 21
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 288
+    Top = 160
+    Width = 83
+    Height = 25
+    TabOrder = 5
+    Kind = bkCancel
+  end
+end
